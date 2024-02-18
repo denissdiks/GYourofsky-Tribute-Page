@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+#title {
+  padding: 10px;
+  background-color: black;
+  color:white;
+}
+
+#main {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  font-size: .9em;
+}
+
+#img-div {
+  margin: 0;
+  margin-top: -22px;
+  background-color: black;
+  color:white;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
