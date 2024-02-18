@@ -64,3 +64,23 @@ img {
   text-align: left;
   padding-left: 10px;
 }
+
+.line {
+  width: 4px;
+  height: 12rem;
+  background-color: black;
+}
+
+.connector {
+  width: 4px;
+  height: 10px;
+  background-color: black;
+}
+
+.connector-left {
+  border-radius: 50% 0 0 50%;
+}
+
+.connector-right {
+  border-radius: 0 50% 50% 0;
+}
