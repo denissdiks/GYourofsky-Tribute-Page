@@ -84,3 +84,7 @@ img {
 .connector-right {
   border-radius: 0 50% 50% 0;
 }
+
+footer {
+  margin: 25px 0 35px 0;
+}
