@@ -19,10 +19,6 @@ body {
   padding: 0;
 }
 
-figcaption {
-  font-size: .9em;
-}
-
 #img-div {
   margin: 0;
   margin-top: -22px;
@@ -37,6 +33,14 @@ img {
   margin: 0 auto;
 }
 
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -46,13 +50,13 @@ img {
   width: 75%;
   max-width: 750px;
   min-width: 420px;
-  font-size: .9em;
 }
 
 .flex-item {
   width: 45%;
   max-width: 350px;
   min-width: 150px;
+  padding-bottom: 15px;
 }
 
 .right-align {
@@ -67,24 +71,20 @@ img {
 
 .line {
   width: 4px;
-  height: 12rem;
+  height: 100%;
   background-color: black;
 }
 
 .connector {
-  width: 4px;
+  width: 10px;
   height: 10px;
+  margin-bottom: 15px; /* flex-item: {padding-bottom: 15px;} */
+  border-radius: 50%;
   background-color: black;
-}
-
-.connector-left {
-  border-radius: 50% 0 0 50%;
-}
-
-.connector-right {
-  border-radius: 0 50% 50% 0;
 }
 
 footer {
   margin: 25px 0 35px 0;
 }
+
+/* border: 1px solid black; */
