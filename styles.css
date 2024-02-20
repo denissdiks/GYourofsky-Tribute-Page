@@ -33,6 +33,20 @@ img {
   margin: 0 auto;
 }
 
+figcaption {
+  width: 70%;
+  margin: 20px auto;
+}
+
+#quote {
+  text-align: left;
+  text-indent: .7em;
+}
+
+#author {
+  text-align: right;
+}
+
 .relative {
   position: relative;
 }
