@@ -6,7 +6,10 @@ body {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   margin: 0;
-  font-size: 3vmin;
+}
+
+header {
+  margin-top: -25px;
 }
 
 #title {
